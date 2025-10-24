@@ -20,7 +20,9 @@ public class Main
         for(int i = 44; i < 60; i++) schedule[3][i] = true;
 
         AppointmentBook b = new AppointmentBook(schedule);
-        System.out.println(a.findFreeBlock(4,16));
+        System.out.println(a.findFreeBlock(2,15));
+        System.out.println(a.findFreeBlock(2,9));
+        System.out.println(a.findFreeBlock(2,20));
         int period = 2;
         while(period < 5)
         {
